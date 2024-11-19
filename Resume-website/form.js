@@ -17,8 +17,6 @@ let skill4 = document.getElementById('ski4');
 let language1 = document.getElementById('lan1');
 let language2 = document.getElementById('lan2');
 let Bio = document.getElementById('profileSum');
- 
-// 2nd
 let Job_title2 = document.getElementById('job2');
 let start_date2 = document.getElementById('sta2');
 let end_date2 = document.getElementById('end2');
@@ -85,5 +83,5 @@ form?.addEventListener('submit', (event) => {
         });
         reader.readAsDataURL(pic.files[0]);
     }
-    window.location.href = "./Resume-website/resume.html";
+    window.location.href = "./resume.html";
 });

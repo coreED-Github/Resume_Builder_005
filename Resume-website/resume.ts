@@ -19,15 +19,6 @@ let language1 = localStorage.getItem("language1")
 let language2 = localStorage.getItem("language2")
 let Bio = localStorage.getItem("profileSum")
 
-// let start_date = localStorage.getItem("start_date2")
-// let end_date = localStorage.getItem("end_date")
-// let company = localStorage.getItem("company")
-// let location01 =localStorage.getItem("start_date")
-// localStorage.getItem("location01")
-// let Job_title = localStorage.getItem("Job_title")
-// let Achivement1 = localStorage.getItem("Achivement1")
-// let Achivement2 = localStorage.getItem("Achivement2")
-// let Achivement3 = localStorage.getItem("Achivement3")
 
 
 let picture = localStorage.getItem("profile_pic")
@@ -178,51 +169,7 @@ resimg.src  = picture
 
 })
 
-// let ref_section = document.getElementById("ref")
-// let ref_btn = document.getElementById("ref_btn")
-// ref_btn?.addEventListener('click' , ()=>{
-//     ref_section!.classList.toggle('hide')
-// })
 
-
-// let exp_section = document.getElementById("exp")
-// let exp_btn = document.getElementById("exp_btn")
-
-// exp_btn?.addEventListener('click' , ()=>{
-//     exp_section!.classList.toggle('hide')
-// })
-
-// let contactt_section = document.getElementById("contactt")
-// let con_btn = document.getElementById("con_btn")
-
-// con_btn?.addEventListener('click' , ()=>{
-//     contactt_section!.classList.toggle('hide')
-// })
-
-
-// let education_section = document.getElementById("education")
-// let edu_btn = document.getElementById("edu_btn")
-
-// edu_btn?.addEventListener('click' , ()=>{
-//     education_section!.classList.toggle('hide')
-// })
-
-
-
-// let skill_section = document.getElementById("skill")
-// let ski_btn = document.getElementById("ski_btn")
-
-// ski_btn?.addEventListener('click' , ()=>{
-//     skill_section!.classList.toggle('hide')
-// })
-
-
-// let lang_section = document.getElementById("lang")
-// let lan_btn = document.getElementById("lan_btn")
-
-// lan_btn?.addEventListener('click' , ()=>{
-//     lang_section!.classList.toggle('hide')
-// })
 
 let print_btn =document.getElementById('print_btn')
 print_btn?.addEventListener('click' , ()=>{
