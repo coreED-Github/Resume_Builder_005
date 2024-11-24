@@ -6,8 +6,7 @@
 }
 body{
     width: 100%;
-   
-    display:flex ;
+   display:flex ;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -16,7 +15,7 @@ body{
 }
 form{
     border: 2px solid black;
-    width: 50%;
+    width: 80%;
     padding: 2%;
     border-radius: 32px;
 background-color:rgb(203, 244, 232);
